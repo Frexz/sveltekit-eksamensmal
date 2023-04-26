@@ -1,38 +1,19 @@
-# create-svelte
+# Svelte-mal for eksamen og prøver
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Dette er en mal for Svelte-prosjekter som kan brukes på eksamen og prøver.
+Ved kjøring av `npm run build` bygges hele Svelte-prosjektet til én enkelt HTML-fil, med *inline* CSS og Javascript.
 
-## Creating a project
+## Slik bruker du denne malen
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Åpne en ny terminal i VS Code
+2. Skriv `npx degit https://github.com/Frexz/sveltekit-eksamensmal`
+3. Skriv `npm install`
+4. Skriv `npm run dev`
+5. Prosjektet ditt kjører nå på en lokal webserver, og du kan se prosjektet ditt på `http://localhost:3000/`
+6. Nå kan du skrive kode i `src/App.svelte`
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Bygging av HTML-fil og levering
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+1. Skriv `npm run build` i terminalen
+2. Hele prosjektet ditt ligger nå i mappen `LEVERING`
+3. Endre navnet på mappen `LEVERING` til `Oppgave-X`, pakk mappen til en .zip-fil og lever 
