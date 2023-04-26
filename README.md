@@ -1,7 +1,7 @@
-# Svelte-mal for eksamen og prøver
+# SvelteKit-mal for eksamen og prøver
 
-Dette er en mal for Svelte-prosjekter som kan brukes på eksamen og prøver.
-Ved kjøring av `npm run build` bygges hele Svelte-prosjektet til én enkelt HTML-fil, med *inline* CSS og Javascript.
+Dette er en mal for SvelteKit-prosjekter som kan brukes på eksamen og prøver.
+Ved kjøring av `npm run build` bygges hele SvelteKit-prosjektet til én enkelt HTML-fil, med *inline* CSS og Javascript.
 
 ## Slik bruker du denne malen
 
@@ -10,7 +10,7 @@ Ved kjøring av `npm run build` bygges hele Svelte-prosjektet til én enkelt HTM
 3. Skriv `npm install`
 4. Skriv `npm run dev`
 5. Prosjektet ditt kjører nå på en lokal webserver, og du kan se prosjektet ditt på `http://localhost:3000/`
-6. Nå kan du skrive kode i `src/App.svelte`
+6. Nå kan du skrive kode i `src/routes/+page.svelte`
 
 ## Bygging av HTML-fil og levering
 
